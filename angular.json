@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngx-platform": {
+      "projectType": "library",
+      "root": "projects/ngx-platform",
+      "sourceRoot": "projects/ngx-platform/src",
+      "prefix": "ngx-platform",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngx-platform/tsconfig.lib.json",
+            "project": "projects/ngx-platform/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-platform/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-platform/src/test.ts",
+            "tsConfig": "projects/ngx-platform/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-platform/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-platform/tsconfig.lib.json",
+              "projects/ngx-platform/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-platform"
 }
