@@ -1,5 +1,5 @@
 {
-  "name": "ngx-platform",
+  "name": "@tscz/ngx-platform",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^11.0.1",
@@ -7,5 +7,12 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tscz/angular-platform.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
