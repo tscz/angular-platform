@@ -48,3 +48,4 @@ Thumbs.db
 # Storybook files
 storybook-static/*
 documentation.json
+projects/ngx-platform-integration/package-lock.json
