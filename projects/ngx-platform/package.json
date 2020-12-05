@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^11.0.1",
-    "@angular/core": "^11.0.1"
+    "@angular/core": "^11.0.1",
+    "@angular/localize": "~11.0.1",
+    "@ng-bootstrap/ng-bootstrap": "^8.0.0",
+    "bootstrap": "^4.5.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
@@ -14,5 +17,9 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-  }
+  },
+  "style": "styles/styles.scss",
+  "files": [
+    "styles/**/*.scss"
+  ]
 }
