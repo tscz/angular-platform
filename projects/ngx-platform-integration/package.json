@@ -22,6 +22,8 @@
     "@angular/router": "~11.0.1",
     "@ng-bootstrap/ng-bootstrap": "^8.0.0",
     "@tscz/ngx-platform": "file:/../../dist/ngx-platform/tscz-ngx-platform-0.0.1.tgz",
+    "ag-grid-angular": "^24.1.0",
+    "ag-grid-community": "^24.1.0",
     "bootstrap": "^4.5.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
