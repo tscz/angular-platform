@@ -1,0 +1,6 @@
+verbose: true
+strict: true
+groups:
+  undefined: 'Private'
+  api: 'API'
+  hacks: 'Dirty Hacks & Fixes'

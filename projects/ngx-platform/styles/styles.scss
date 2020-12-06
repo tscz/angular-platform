@@ -1,4 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/// Here is the description
+/// On several lines if you will
+/// @author Author's name
 @import '~bootstrap/scss/bootstrap';
 @import "~ag-grid-community/dist/styles/ag-grid.css";
 @import "~ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+
+/// Here is the description
+///
+/// On several lines if you will
+/// @author Author's name
+/// @example
+///   4 + 2 = 6
+///   4 / 2 = 2
+///
+/// @example scss - Clamp function
+///   clamp(42, $min: 13, $max: 37)
+///   // 37
+/// @link http://some.url
+/// @link http://some.url Optional caption
+p {
+    color: aqua;
+}

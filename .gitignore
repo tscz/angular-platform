@@ -51,3 +51,4 @@ documentation.json
 projects/ngx-platform-integration/package-lock.json
 projects/ngx-platform-integration/tscz-ngx-platform-*.tgz
 documentation/
+sassdoc/
