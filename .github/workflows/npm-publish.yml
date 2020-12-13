@@ -28,7 +28,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm run build -- --prod  
+      - run: npm run build -- --prod
       - run: npm publish dist/ngx-platform/
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

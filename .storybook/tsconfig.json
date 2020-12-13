@@ -1,9 +1,7 @@
 {
   "extends": "../projects/ngx-platform/tsconfig.lib.json",
   "compilerOptions": {
-    "types": [
-      "node"
-    ]
+    "types": ["node"]
   },
   "exclude": [
     "../src/test.ts",
@@ -11,10 +9,6 @@
     "../projects/**/*.spec.ts",
     "../projects/**/*"
   ],
-  "include": [
-    "../projects/ngx-platform-storybook/**/*"
-  ],
-  "files": [
-    "./typings.d.ts"
-  ]
+  "include": ["../projects/ngx-platform-storybook/**/*"],
+  "files": ["./typings.d.ts"]
 }

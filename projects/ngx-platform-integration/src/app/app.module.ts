@@ -6,15 +6,9 @@ import { AppComponent } from './app.component';
 import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    AgGridModule.withComponents([])
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, AgGridModule.withComponents([])],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

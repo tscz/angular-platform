@@ -8,9 +8,8 @@ describe('NgxPlatformComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxPlatformComponent ]
-    })
-    .compileComponents();
+      declarations: [NgxPlatformComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

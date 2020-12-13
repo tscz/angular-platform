@@ -2,19 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'ngx-platform-ngx-platform',
-  template: `
-    <p>
-      ngx-platform works!
-    </p>
-  `,
-  styles: [
-  ]
+  template: ` <p>ngx-platform works!</p> `,
+  styles: [],
 })
 export class NgxPlatformComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

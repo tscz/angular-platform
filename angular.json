@@ -36,9 +36,7 @@
               "projects/ngx-platform/tsconfig.lib.json",
               "projects/ngx-platform/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -67,13 +65,9 @@
               "projects/ngx-platform-demo/src/favicon.ico",
               "projects/ngx-platform-demo/src/assets"
             ],
-            "styles": [
-              "projects/ngx-platform-demo/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-platform-demo/src/styles.scss"],
             "stylePreprocessorOptions": {
-              "includePaths": [
-                "projects/ngx-platform"
-              ]
+              "includePaths": ["projects/ngx-platform"]
             },
             "scripts": []
           },
@@ -135,9 +129,7 @@
               "projects/ngx-platform-demo/src/favicon.ico",
               "projects/ngx-platform-demo/src/assets"
             ],
-            "styles": [
-              "projects/ngx-platform-demo/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-platform-demo/src/styles.scss"],
             "scripts": []
           }
         },
@@ -149,9 +141,7 @@
               "projects/ngx-platform-demo/tsconfig.spec.json",
               "projects/ngx-platform-demo/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -192,9 +182,7 @@
               "projects/ngx-platform-storybook/src/favicon.ico",
               "projects/ngx-platform-storybook/src/assets"
             ],
-            "styles": [
-              "projects/ngx-platform-storybook/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-platform-storybook/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -255,9 +243,7 @@
               "projects/ngx-platform-storybook/src/favicon.ico",
               "projects/ngx-platform-storybook/src/assets"
             ],
-            "styles": [
-              "projects/ngx-platform-storybook/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-platform-storybook/src/styles.scss"],
             "scripts": []
           }
         },
@@ -269,9 +255,7 @@
               "projects/ngx-platform-storybook/tsconfig.spec.json",
               "projects/ngx-platform-storybook/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
