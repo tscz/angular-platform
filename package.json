@@ -14,7 +14,8 @@
     "compodoc": "compodoc -p ./projects/ngx-platform/tsconfig.lib.json ./projects/ngx-platform/src",
     "sassdoc": "sassdoc ./projects/ngx-platform/styles -v -s",
     "prettier": "prettier",
-    "update": "npm-check"
+    "update": "npm-check",
+    "stylelint": "stylelint **/*.scss"
   },
   "private": true,
   "dependencies": {
@@ -61,7 +62,10 @@
     "prettier": "2.2.1",
     "protractor": "~7.0.0",
     "sassdoc": "^2.7.3",
+    "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "tslint-config-prettier": "^1.18.0",
