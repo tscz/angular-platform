@@ -13,7 +13,8 @@
     "build-storybook": "npm run docs:json && build-storybook",
     "compodoc": "compodoc -p ./projects/ngx-platform/tsconfig.lib.json ./projects/ngx-platform/src",
     "sassdoc": "sassdoc ./projects/ngx-platform/styles -v -s",
-    "prettier": "prettier"
+    "prettier": "prettier",
+    "update": "npm-check"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +31,7 @@
     "ag-grid-angular": "^24.1.0",
     "ag-grid-community": "^24.1.0",
     "bootstrap": "^4.5.0",
+    "npm-check": "^5.9.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
