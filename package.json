@@ -12,7 +12,8 @@
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
     "compodoc": "compodoc -p ./projects/ngx-platform/tsconfig.lib.json ./projects/ngx-platform/src",
-    "sassdoc": "sassdoc ./projects/ngx-platform/styles -v -s"
+    "sassdoc": "sassdoc ./projects/ngx-platform/styles -v -s",
+    "prettier": "prettier"
   },
   "private": true,
   "dependencies": {
@@ -55,10 +56,13 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^11.0.0",
+    "prettier": "2.2.1",
     "protractor": "~7.0.0",
     "sassdoc": "^2.7.3",
+    "stylelint-config-prettier": "^8.0.2",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "~4.0.2"
   }
 }

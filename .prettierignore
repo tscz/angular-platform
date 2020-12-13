@@ -1,0 +1,16 @@
+# compiled output
+**/dist/*
+/tmp
+/out-tsc
+
+# dependencies
+package-lock.json
+**/node_modules/*
+
+# Storybook files
+storybook-static/*
+documentation.json
+projects/ngx-platform-integration/package-lock.json
+projects/ngx-platform-integration/tscz-ngx-platform-*.tgz
+documentation/
+sassdoc/
