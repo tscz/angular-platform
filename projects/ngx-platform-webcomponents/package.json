@@ -1,0 +1,10 @@
+{
+  "name": "ngx-platform-webcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["webcomponents.js","styles.css"]
+}

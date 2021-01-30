@@ -15,7 +15,11 @@
     "sassdoc": "sassdoc ./projects/ngx-platform/styles -v -s",
     "prettier": "prettier",
     "update": "npm-check",
-    "stylelint": "stylelint **/*.scss"
+    "stylelint": "stylelint **/*.scss",
+    "build:webcomponents": "ng build --prod --project ngx-platform-webcomponents --output-hashing none && npm run pack:webcomponents && cp projects/ngx-platform-webcomponents/package.json dist/ngx-platform-webcomponents",
+    "pack:webcomponents": "bash -c 'cat ./dist/ngx-platform-webcomponents/{runtime,polyfills,main}.js' > ./dist/ngx-platform-webcomponents/webcomponents.js && ls -lah ./dist/ngx-platform-webcomponents/webcomponents.js",
+    "x": "bash -c 'cat ./dist/ngx-platform-webcomponents/{runtime,polyfills,main}.js'",
+    "build:lib": "ng build --prod --project ngx-platform"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +27,7 @@
     "@angular/common": "^11.1.1",
     "@angular/compiler": "^11.1.1",
     "@angular/core": "^11.1.1",
+    "@angular/elements": "^11.1.1",
     "@angular/forms": "^11.1.1",
     "@angular/localize": "^11.1.1",
     "@angular/platform-browser": "^11.1.1",
@@ -32,6 +37,7 @@
     "ag-grid-angular": "^25.0.1",
     "ag-grid-community": "^25.0.1",
     "bootstrap": "^4.6.0",
+    "document-register-element": "^1.7.2",
     "npm-check": "^5.9.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
